@@ -12,6 +12,7 @@ Using AI to schedule for Automotive Industry.
 
 # Blazor Template
 - Run `dotnet new blazorwasm -h` too see all the options for blazor
+- There is also `dotnet new blazorserver -h` but this is older tech before wasm, all modern browsers support wasm now
 - I ran `dotnet new blazorwasm --auth Individual`, you don't have to, this is already done
 
 # Run and Debug
