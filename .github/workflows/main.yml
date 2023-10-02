@@ -49,7 +49,7 @@ jobs:
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
         html_path: ${{ env.PUBLISH_DIR }}/index.html
-        base_href: /${GITHUB_REPOSITORY#*/}/
+        base_href: /${{ github.repository }}/
 
     # Setup pages
     - name: Setup Pages
