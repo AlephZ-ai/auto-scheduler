@@ -17,4 +17,3 @@ Using AI to schedule for Automotive Industry.
 
 # Run and Debug
 - Open vscode as admin in the correct directory and click the "Run and Debug" tab and then the "Start Debugging" play button
-
