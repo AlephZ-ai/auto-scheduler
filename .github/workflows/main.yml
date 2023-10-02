@@ -46,10 +46,7 @@ jobs:
     
     # Rewrite base href
     - name: Rewrite base href
-      uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
-      with:
-        html_path: ${{ env.PUBLISH_DIR }}/index.html
-        base_href: /${{ github.event.repository.name }}/
+      run: sed -i 's/<base href="\/" \/>/<base href="\/${GITHUB_REPOSITORY#*/}\/" \/>/g' ${{ env.PUBLISH_DIR }}
 
     # Setup pages
     - name: Setup Pages
