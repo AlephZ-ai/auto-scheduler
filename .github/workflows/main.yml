@@ -58,7 +58,7 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         # Publishes release folder
-        path: ${GITHUB_REPOSITORY#*/}
+        path: ${{ env.PUBLISH_DIR }}
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
