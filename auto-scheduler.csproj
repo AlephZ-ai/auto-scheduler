@@ -4,9 +4,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <RunAOTCompilation>true</RunAOTCompilation>
     <WasmStripILAfterAOT>false</WasmStripILAfterAOT>
-    <WasmEnableSIMD>false</WasmEnableSIMD>
+    <WasmEnableSIMD>true</WasmEnableSIMD>
     <WasmEnableExceptionHandling>true</WasmEnableExceptionHandling>
-    <WasmNativeStrip>false</WasmNativeStrip>
+    <WasmNativeStrip>true</WasmNativeStrip>
     <WasmDedup>true</WasmDedup>
     <!-- <EmccTotalMemory>134217728</EmccTotalMemory> -->
     <Nullable>enable</Nullable>
