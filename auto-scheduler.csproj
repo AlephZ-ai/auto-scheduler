@@ -7,7 +7,7 @@
     <WasmEnableSIMD>false</WasmEnableSIMD>
     <WasmEnableExceptionHandling>true</WasmEnableExceptionHandling>
     <WasmNativeStrip>false</WasmNativeStrip>
-    <WasmDedup>false</WasmDedup>
+    <WasmDedup>true</WasmDedup>
     <!-- <EmccTotalMemory>134217728</EmccTotalMemory> -->
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
