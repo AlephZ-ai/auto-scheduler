@@ -44,9 +44,9 @@ jobs:
     - name: Publish .NET Core Project
       run: dotnet publish -c Release
     
-    # Rewrite base href
-    - name: Rewrite base href
-      run: sed -i 's/<base href="\/" \/>/<base href="\/'"${GITHUB_REPOSITORY#*\/}"'\/" \/>/g' "${{ env.PUBLISH_DIR }}/index.html"
+    # # Rewrite base href
+    # - name: Rewrite base href
+    #   run: sed -i 's/<base href="\/" \/>/<base href="\/'"${GITHUB_REPOSITORY#*\/}"'\/" \/>/g' "${{ env.PUBLISH_DIR }}/index.html"
 
     # Setup pages
     - name: Setup Pages
