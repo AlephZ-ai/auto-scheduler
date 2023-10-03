@@ -2,9 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RunAOTCompilation>true</RunAOTCompilation>
-    <WasmEnableSIMD>true</WasmEnableSIMD>
+    <RunAOTCompilation>false</RunAOTCompilation>
+    <WasmStripILAfterAOT>false</WasmStripILAfterAOT>
+    <WasmEnableSIMD>false</WasmEnableSIMD>
     <WasmEnableExceptionHandling>true</WasmEnableExceptionHandling>
+    <WasmNativeStrip>false</WasmNativeStrip>
+    <WasmDedup>false</WasmDedup>
+    <!-- <EmccTotalMemory>134217728</EmccTotalMemory> -->
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>preview</LangVersion>
